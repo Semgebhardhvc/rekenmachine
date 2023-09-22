@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Leeftijd Controle</title>
+    </head>
+    <body>
+        <label for="ageInput">Wat is uw leeftijd?</label>
+        <input type="number" id="ageInput" name="ageInput">
+        <button onclick="checkAge()">Controleer</button>
+    
+        <script>
+            function checkAge() {
+                let ageInput = document.getElementById("ageInput").value;
+                if (ageInput >= 18) {
+                    alert("Ga naar de hub!");
+                } else {
+                    alert("Te jong voor porno!");
+                }
+            }
+        </script>
+    </body>
+    </html>
